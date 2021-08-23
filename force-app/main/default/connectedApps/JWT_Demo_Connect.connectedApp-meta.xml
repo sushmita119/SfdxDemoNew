@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>sushmita.mukherjee@nagarro.com</contactEmail>
+    <label>JWT Demo Connect</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDoTCCAokCFEoSiB/JWpLYTE88lJTI4uEFzvhVMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJJTjELMAkGA1UECAwCSksxCzAJBgNVBAcMAkROMRAwDgYDVQQKDAdOQUdBUlJPMQ8wDQYDVQQLDAZERVZPUFMxETAPBgNVBAMMCFNVU0hNSVRBMS0wKwYJKoZIhvcNAQkBFh5zdXNobWl0YS5tdWtoZXJqZWVAbmFnYXJyby5jb20wHhcNMjEwNzA4MTAwNzMzWhcNMjIwNzA4MTAwNzMzWjCBjDELMAkGA1UEBhMCSU4xCzAJBgNVBAgMAkpLMQswCQYDVQQHDAJETjEQMA4GA1UECgwHTkFHQVJSTzEPMA0GA1UECwwGREVWT1BTMREwDwYDVQQDDAhTVVNITUlUQTEtMCsGCSqGSIb3DQEJARYec3VzaG1pdGEubXVraGVyamVlQG5hZ2Fycm8uY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA05R2vEQcquBpgYNSuM+UnuMdcQ+ktQ4Zo6gyVNV95dppPCyyiOUtqy9NVu1SSgsZ/9NR12jb/P9wBKnc3H6TlBNzdwYawQ+FplHUS3EI5lgxTyToC1eKOIXsBzyvCpRjro5PVlpcglMG0lSBEwaAJ15k/WrTfxgQ8RQ3aBsjikNtC4WX/hho9xqPQZU0NiBqsPA+K6wunVteL5io2yWyd4LHOJeUIx5HDykB+F0ru6LM+A+2X+6ALCPx7mmr3EcqTo/KiFmC5pbGJmnYuOueNxW4mmata1BBuyblQH8Yz4n4dCLJDo/CN4CppfHhYiBllKJE4x1hSlaTeMYlaQ5sJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBat/OPfFouEdeq5HskiH+dtIsMgSJecjmGza3u0xRDh91cRTRPE1Qx6zzYbaJA6TU3SU41UX5FaVKYdtpKRiPrG9AUP/mRUSc5/WRpALixQ8ILAsiR/8ZtLyAYCwm7O11CMd5B6NJlpSHgpkJHD3NIQKJHMH22Movrsvh8QfaxTNbpUCDK1ctZdKG0FYPkmxYkL4DVvZ7I9oJaMr5FmcY8JmwpoSBUk0+bv+By81ZAPW8VC9DbKLS5krsdl1ZUUrvM9wFjeaSjpJKY7HHZR1yUCy5SLsPVryIXdyPPecbldxkAsrHWkVsdNq+peKPNkFE7VrCburP4BIijmkiDJzJR</certificate>
+        <consumerKey>3MVG9fe4g9fhX0E7HaB30zyBbt2waMAK06MU.0IzhYykFmfUrBhCJ0L1g1blz8Hcbvw7lhPYOfRu4Aq1aLSGz</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
